@@ -1,10 +1,12 @@
 $fontPath: "@/assets/fonts/";
 
+// https: //css-tricks.com/snippets/css/using-font-face-in-css/
 @font-face {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   src:
+    local("Montserrat"),
     url(#{$fontPath}Montserrat-Regular.woff2) format("woff2"),
     url(#{$fontPath}Montserrat-Regular.woff) format("woff");
 }
@@ -14,6 +16,8 @@ $fontPath: "@/assets/fonts/";
   font-style: normal;
   font-weight: bold;
   src:
+    local("Montserrat Bold"),
+    local("Montserrat-Bold"),
     url(#{$fontPath}Montserrat-Bold.woff2) format("woff2"),
     url(#{$fontPath}Montserrat-Bold.woff) format("woff");
 }
