@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "./"
+    },
+    {
+      "path": "server"
+    },
+    {
+      "path": "types"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "syler.sass-indented",
+      "dannyconnell.split-html-attributes",
+      "stylelint.vscode-stylelint",
+      "vue.volar",
+      "byeful.workspace-color"
+    ]
+  },
+  "settings": {
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#32e3e3"
+    }
+  },
+}

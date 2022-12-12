@@ -1,0 +1,52 @@
+/*
+  easy media querying
+  use: @include breakpoint(literal) { prop1: value; prop2: value; ...}
+*/
+
+@mixin breakpoint($type) {
+  @if $type == mobile {
+    @media screen and (max-width: $mobileBreakpoint) {
+      @content;
+    }
+  }
+
+  @if $type == tablet {
+    @media screen and (min-width: $mobileBreakpoint) and (max-width: $desktopBreakpoint) {
+      @content;
+    }
+  }
+
+  @if $type == desktop {
+    @media screen and (min-width: $desktopBreakpoint) {
+      @content;
+    }
+  }
+
+  @if $type == lt-desktop {
+    @media screen and (max-width: $desktopBreakpoint) {
+      @content;
+    }
+  }
+
+  @if $type == gt-mobile {
+    @media screen and (min-width: $mobileBreakpoint) {
+      @content;
+    }
+  }
+}
+
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}

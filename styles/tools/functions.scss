@@ -1,0 +1,5 @@
+@use "sass:math";
+
+@function remify($start, $del: 16) {
+  @return math.div(1rem * $start, $del);
+}

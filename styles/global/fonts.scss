@@ -1,0 +1,19 @@
+$fontPath: "@/assets/fonts/";
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url(#{$fontPath}Montserrat-Regular.woff2) format("woff2"),
+    url(#{$fontPath}Montserrat-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url(#{$fontPath}Montserrat-Bold.woff2) format("woff2"),
+    url(#{$fontPath}Montserrat-Bold.woff) format("woff");
+}
