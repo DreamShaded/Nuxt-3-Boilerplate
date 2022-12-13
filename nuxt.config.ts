@@ -1,6 +1,9 @@
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // https://nuxt.com/docs/guide/directory-structure/pages
+  pages: true,
+
   vite: {
     css: {
       preprocessorOptions: {
