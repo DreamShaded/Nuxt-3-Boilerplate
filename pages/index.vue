@@ -9,8 +9,6 @@
 </script>
 
 <style lang="scss">
-@import "@/styles/pageStyles";
-
 h1 {
   color: $cBaseText;
   font-family: $fFamily;
