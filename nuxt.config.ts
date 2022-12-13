@@ -20,9 +20,13 @@ export default defineNuxtConfig({
     head: {
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'charset', content: 'utf-8' },
       ],
       bodyAttrs: {
         class: 'custom-scrollbar',
+      },
+      htmlAttrs: {
+        lang: 'en',
       },
     },
   },
