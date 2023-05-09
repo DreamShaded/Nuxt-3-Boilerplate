@@ -21,8 +21,6 @@
     ]
   },
   "settings": {
-    "workbench.colorCustomizations": {
-      "titleBar.activeBackground": "#d257ce"
-    }
+    "workbench.colorCustomizations": {}
   },
 }
