@@ -9,6 +9,8 @@
 - ready to code in vscode
 - easy to extend
 - custom error page
+- Yarn 1.22 or NPM@8 or higher
+- fresh packages, no vulnerabilities
 
 ## Recommendations:
 
