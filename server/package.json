@@ -1,0 +1,27 @@
+{
+  "description": "Boilerplate for Nitro Server",
+  "keywords": [
+    "nitro",
+    "node js",
+    "node server",
+    "eslint",
+    "stylelint",
+    "Postgres"
+  ],
+  "license": "MIT",
+  "author": "https://t.me/vzhyx_exp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.7.0",
+    "eslint": "^8.57.0",
+    "nitropack": "latest",
+    "typescript": "^5.3.3"
+  }
+}

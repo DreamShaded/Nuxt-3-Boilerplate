@@ -13,6 +13,7 @@
   ],
   "license": "MIT",
   "author": "https://t.me/vzhyx_exp",
+  "version": "1.0.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev -o",
@@ -26,11 +27,11 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-vuejs-accessibility": "^2.2.1",
-    "nuxt": "^3.10.1",
+    "nuxt": "^3.10.3",
     "postcss-html": "^1.6.0",
-    "sass": "^1.70.0",
+    "sass": "^1.71.1",
     "stylelint": "^16.2.1",
     "stylelint-config-idiomatic-order": "^10.0.0",
     "stylelint-config-recommended-scss": "^14.0.0",

@@ -1,8 +1,19 @@
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // https://nuxt.com/docs/guide/directory-structure/pages
   pages: true,
+
+  devServer: {
+    port: Number(process.env.PORT) || 5000,
+  },
+  nitro: {
+    devProxy: {
+        '/api/': {
+            target: process.env.SERVER_URL ?? 'http://localhost:3000/api/',
+            changeOrigin: true
+        }
+    },
+  },
 
   vite: {
     css: {
