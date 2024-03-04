@@ -9,6 +9,10 @@
       "name": "Frontend"
     },
     {
+      "path": "./commonTypes",
+      "name": "Common Types"
+    },
+    {
       "path": "./",
       "name": "Root"
     }

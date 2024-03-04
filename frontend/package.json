@@ -1,18 +1,6 @@
 {
-  "description": "Boilerplate for Nuxt3 with stylelint & eslint",
-  "keywords": [
-    "nuxt 3",
-    "vue 3",
-    "SSR",
-    "SSG",
-    "eslint",
-    "stylelint",
-    "sass",
-    "scss",
-    "BEM naming"
-  ],
+  "name": "frontend",
   "license": "MIT",
-  "author": "https://t.me/vzhyx_exp",
   "version": "1.0.0",
   "scripts": {
     "build": "nuxt build",
@@ -22,8 +10,8 @@
     "lint:styles": "stylelint ./**/*.{vue,scss} --fix",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "serve": "yarn dev",
-    "start": "yarn dev"
+    "serve": "pnpm dev",
+    "start": "pnpm dev"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
