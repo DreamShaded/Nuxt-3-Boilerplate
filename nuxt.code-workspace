@@ -13,10 +13,6 @@
       "name": "Common Types"
     },
     {
-      "path": "./dockerfiles",
-      "name": "Container configs"
-    },
-    {
       "path": "./",
       "name": "Root"
     }
