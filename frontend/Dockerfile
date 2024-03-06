@@ -11,4 +11,4 @@ RUN yarn
 COPY . .
 
 EXPOSE 5000
-CMD [ "sh", "-c", "./startup.sh" ]
+CMD [ "yarn", "dev" ]
