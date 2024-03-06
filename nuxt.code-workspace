@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "path": "./server",
+      "path": "./backend",
       "name": "Server"
     },
     {
@@ -11,6 +11,10 @@
     {
       "path": "./commonTypes",
       "name": "Common Types"
+    },
+    {
+      "path": "./dockerfiles",
+      "name": "Container configs"
     },
     {
       "path": "./",

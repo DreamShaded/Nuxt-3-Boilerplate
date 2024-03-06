@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+  backend:
+    container_name: my-backend
+    restart: unless-stopped
+    mem_limit: 1024M
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - inner-net
+    ports:
+      - ${BACKEND_PORT}:${BACKEND_PORT}
+      - 9229:9229
+    volumes:
+      - ./backend:/backend
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+
+  frontend:
+    container_name: my-frontend
+    restart: unless-stopped
+    mem_limit: 1024M
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - inner-net
+    ports:
+      - ${FRONTEND_PORT}:${FRONTEND_PORT}
+      - 9230:9229
+    volumes:
+      - ./frontend:/frontend
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+
+networks:
+  inner-net:
+    name: inner-net
+    external: false

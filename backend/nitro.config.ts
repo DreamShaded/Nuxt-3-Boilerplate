@@ -8,4 +8,8 @@ export default defineNitroConfig({
     // https://nitro.unjs.io/config#openapi
     openAPI: true,
   },
+
+  alias: {
+    '@types': './types',
+  },
 })

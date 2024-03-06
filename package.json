@@ -1,7 +1,7 @@
 {
   "name": "nuxt-based-boilerplate",
   "version": "2.0.0",
-  "description": "Boilerplate for Nuxt3 with stylelint & eslint",
+  "description": "Boilerplate for Nuxt3 & Nitro with stylelint & eslint",
   "author": {
     "name": "Roman Troitcky",
     "email": "github@vzhyx.io",
@@ -17,7 +17,6 @@
     "nuxt 3",
     "vue 3",
     "nitro",
-    "pnpm",
     "docker",
     "SSR",
     "SSG",
@@ -26,12 +25,5 @@
     "sass",
     "scss"
   ],
-  "workspaces": [
-    "frontend",
-    "backend"
-  ],
-  "license": "ISC",
-  "scripts": {
-    "start": "cd frontend && pnpm run start & cd ../backend && pnpm run start"
-  }
+  "license": "ISC"
 }
