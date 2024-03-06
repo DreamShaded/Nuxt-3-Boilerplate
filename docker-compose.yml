@@ -15,8 +15,8 @@ services:
     volumes:
       - ./backend:/backend
     build:
-      context: .
-      dockerfile: ./backend/Dockerfile
+      context: ./backend
+      dockerfile: Dockerfile
 
   frontend:
     container_name: my-frontend
@@ -32,8 +32,9 @@ services:
     volumes:
       - ./frontend:/frontend
     build:
-      context: .
-      dockerfile: ./frontend/Dockerfile
+      context: ./frontend
+      dockerfile: Dockerfile
+  # db service below
 
 networks:
   inner-net:
