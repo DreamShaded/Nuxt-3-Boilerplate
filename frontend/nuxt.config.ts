@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   devServer: {
     port: Number(process.env.PORT) || 5000,
   },
+
   nitro: {
     devProxy: {
       '/api/': {
@@ -46,4 +47,6 @@ export default defineNuxtConfig({
   css: [
     '@/styles/pageStyles.scss',
   ],
+
+  compatibilityDate: '2024-07-11',
 });
