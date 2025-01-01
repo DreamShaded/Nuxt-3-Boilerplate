@@ -18,6 +18,7 @@
     ]
   },
   "settings": {
-    "workbench.colorCustomizations": {}
+    "workbench.colorCustomizations": {},
+    "biome.projects": []
   },
 }
